@@ -22,6 +22,8 @@
     }
    ],
    "source": [
+    "import os\n",
+    "from dotenv import load_dotenv\n",
     "import pandas as pd\n",
     "import streamlit as st\n",
     "import folium\n",
@@ -30,8 +32,9 @@
     "import googlemaps.convert\n",
     "import itertools\n",
     "\n",
-    "# Config\n",
-    "API_KEY = \"AIzaSyAr85RLRpUlwAUWJnlqabn5JVv74WNyaqU\"\n",
+    "# Cargar API Key desde .env\n",
+    "load_dotenv()\n",
+    "API_KEY = os.getenv(\"GOOGLE_MAPS_API_KEY\")\n",
     "gmaps = googlemaps.Client(key=API_KEY)\n",
     "\n",
     "# Cargar archivo\n",
