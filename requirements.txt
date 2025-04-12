@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 streamlit
 pandas
 folium
 streamlit-folium
 googlemaps
 altair>=5.0.0
+=======
+streamlit
+pandas
+folium
+streamlit-folium
+googlemaps
+altair>=5.0.0
+>>>>>>> 1767921f60e0983c7fdc754ade082006c7ce1fcd
