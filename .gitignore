@@ -1,0 +1,4 @@
+.env
+dispo_tours_asignados.csv
+__pycache__/
+.devcontainer/
