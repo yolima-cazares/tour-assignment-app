@@ -3,4 +3,4 @@ pandas
 folium
 streamlit-folium
 googlemaps
-altair
+altair>=4.2.2
